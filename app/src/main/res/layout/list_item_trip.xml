@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <!--    android:background="@drawable/sumit_sourav_esrtxpd9q1c_unsplash">-->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvItemTripName"
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            android:background="#609EC330"
+            android:fontFamily="cursive"
+            android:padding="32dp"
+            android:text="hello"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/delete_trip"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="367dp"
+            android:text=""
+            app:backgroundTint="#609EC330"
+            style="?android:attr/borderlessButtonStyle"/>
+<!--            app:rippleColor="#056E09" />-->
+    </RelativeLayout>
+
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_margin="20dp">-->
+
+<!--&lt;!&ndash;    android:background="@drawable/sumit_sourav_esrtxpd9q1c_unsplash">&ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvItemTripName"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="450dp"-->
+<!--        android:background="#BCD571"-->
+<!--        android:fontFamily="cursive"-->
+<!--        android:padding="32dp"-->
+<!--        android:text="hello"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="@color/colorBlack"-->
+<!--        android:textSize="30sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--</LinearLayout>-->

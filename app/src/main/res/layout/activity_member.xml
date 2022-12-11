@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngtree_crystal_background_with_green_light_colour_image_636734"
+    tools:context=".MemberActivity">
+
+
+    <TextView
+        android:id="@+id/TRIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Trip Name"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:textAllCaps="true" />
+
+
+
+    <TextView
+        android:id="@+id/m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:layout_below="@id/TRIP"
+        android:layout_centerHorizontal="true"
+        android:text="Member 1" />
+
+    <EditText
+        android:id="@+id/m1name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="false"
+        android:hint="name"
+        android:layout_below="@id/m1"
+        />
+
+    <EditText
+        android:id="@+id/m1paid"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="192dp"
+        android:gravity="center"
+        android:text="-1.0 " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="49dp"
+        android:layout_height="19dp"
+        android:layout_alignTop="@+id/m1name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="49dp"
+        android:text="amount" />
+
+    <TextView
+        android:id="@+id/m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+
+        android:layout_below="@id/m1"
+        android:layout_centerHorizontal="true"
+        android:text="Member 2" />
+
+    <EditText
+        android:id="@+id/m2name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m2"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="10dp"
+        android:hint="name" />
+
+    <EditText
+        android:id="@+id/m2paid"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="192dp"
+        android:gravity="center"
+        android:text="-1.0 " />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="49dp"
+        android:layout_height="19dp"
+        android:layout_alignTop="@+id/m2name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="54dp"
+        android:text="amount" />
+
+    <TextView
+        android:id="@+id/m3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+
+        android:layout_below="@id/m2"
+        android:layout_centerHorizontal="true"
+        android:text="Member 3" />
+
+    <EditText
+        android:id="@+id/m3name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m3"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="10dp"
+        android:hint="name" />
+
+    <EditText
+        android:id="@+id/m3paid"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="190dp"
+        android:gravity="center"
+        android:text="-1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="49dp"
+        android:layout_height="19dp"
+        android:layout_alignTop="@+id/m3name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="700dp"
+        android:text="amount" />
+
+    <TextView
+        android:id="@+id/m4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_below="@id/m3"
+        android:layout_centerHorizontal="true"
+        android:text="Member 4" />
+    <EditText
+        android:id="@+id/m4name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="false"
+        android:hint="name"
+        android:layout_below="@id/m4"
+        />
+
+    <EditText
+        android:id="@+id/m4paid"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="190dp"
+        android:gravity="center"
+        android:text=" -1.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="49dp"
+        android:layout_height="19dp"
+        android:layout_alignTop="@+id/m4name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="700dp"
+        android:text="amount" />
+    <TextView
+        android:id="@+id/m5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+
+        android:layout_below="@id/m4"
+        android:layout_centerHorizontal="true"
+        android:text="Member 5" />
+    <EditText
+        android:id="@+id/m5name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="10dp"
+        android:hint="name"
+        android:layout_below="@id/m5"
+        />
+
+    <EditText
+        android:id="@+id/m5paid"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="190dp"
+        android:gravity="center"
+        android:text="-1.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="49dp"
+        android:layout_height="19dp"
+        android:layout_alignTop="@+id/m5name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="700dp"
+        android:text="amount" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="138dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/m5paid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Split(it)"
+        app:backgroundTint="#79C324"
+        app:rippleColor="#035706" />
+
+    <ImageView
+        android:id="@+id/im1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/TRIP"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_user"
+        tools:srcCompat="@tools:sample/avatars" />
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/im1"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/ic_user"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/im3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/im2"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/ic_user"
+        tools:srcCompat="@tools:sample/avatars" />
+    <ImageView
+        android:id="@+id/im4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/im3"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/ic_user"
+        tools:srcCompat="@tools:sample/avatars" />
+    <ImageView
+        android:id="@+id/im5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/im4"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/ic_user"
+        tools:srcCompat="@tools:sample/avatars" />
+</RelativeLayout>

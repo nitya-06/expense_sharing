@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.expense_sharing.HomeActivity"
+    tools:ignore="ExtraText">
+<!--    <LinearLayout-->
+<!--        android:id="@+id/LinearLayout02"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_alignParentBottom="true">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/profile"-->
+<!--            android:layout_width="390dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Profile"-->
+<!--            app:backgroundTint="#6049E606"-->
+<!--            app:rippleColor="#035706"></Button>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/bsignout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Sign Out"-->
+<!--            app:backgroundTint="#6049E606"-->
+<!--            app:rippleColor="#035706"></Button>-->
+<!--    </LinearLayout>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AE8B24"
+        android:padding="8sp"
+        android:text="Groups"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/trip_back">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lvTripList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            tools:listitem="@layout/list_item_trip" />
+
+        <ImageView
+            android:id="@+id/add_btn_new"
+            android:layout_width="154dp"
+            android:layout_height="99dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="8dp"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
